@@ -1,0 +1,10 @@
+{
+    "title": "My Documentations",
+    "theme": {},
+    "sidebar": [
+        {
+            "label": "Getting Started",
+            "href": "essentials/code.mdx"
+        }
+    ]
+}
