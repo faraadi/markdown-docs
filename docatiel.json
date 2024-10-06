@@ -3,8 +3,54 @@
     "theme": {},
     "sidebar": [
         {
-            "label": "Getting Started",
-            "href": "essentials/code.mdx"
+          "label": "Get Started",
+          "children": [
+            {
+                "label": "Introduction",
+                "href": "introduction"
+            },
+            {
+                "label": "Quick start",
+                "href": "quickstart"
+            },
+            {
+                "label": "Development",
+                "href": "development"
+            }
+          ]
+        },
+        {
+          "label": "Essentials",
+          "children": [
+            {
+                "label": "Markdown Writing",
+                "href": "essentials/markdown"
+            },
+            {
+                "label": "Code Blocks",
+                "href": "essentials/code"
+            },
+            {
+                "label": "Images",
+                "href": "essentials/images"
+            },
+            {
+                "label": "Settings",
+                "href": "essentials/settings"
+            },
+            {
+                "label": "Navigation",
+                "href": "essentials/navigation"
+            },
+            {
+                "label": "Reusable Snippets",
+                "href": "essentials/reusable-snippets"
+            }
+          ]
+        },
+        {
+          "label": "API Documentation",
+          "href": "api-reference/introduction"
         }
-    ]
+      ]
 }
